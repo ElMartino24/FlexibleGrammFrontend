@@ -7,7 +7,7 @@ import Pallete from "./palleteBarChart";
 import "../sharedComponendStyle.css";
 import PropertiesPallete from "./propertiesPallete";
 import GenerateHtmlAndCss from "./generateHtmlCss";
-import GenerateReactJsx from "./generateReactJsx.Jsx";
+import GenerateReactJsx from "./generateReactJsx.jsx";
 import CodeEditor from "../../editor/codeEditor";
 import ParseJsxToNodeData from "./parseJsxCode";
 import ParseHTMLCssToData from "./parseHtmlCss";
