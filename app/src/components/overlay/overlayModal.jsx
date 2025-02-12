@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import BarChartPic from "../pics/BarChart.png";
 import ColumnChartPic from "../pics/ColumnChart.png";
 import FlowChartPic from "../pics/FlowChart.png";
-// import XIcon from "../pics/xIcon.png";
+import XIcon from "../pics/xIcon.png";
 
 function Overlay(props) {
     if (!props.showOverlay) {
@@ -24,7 +24,7 @@ function Overlay(props) {
                 <div className="flex items-center justify-start mb-4">
                     
                     <h3 className="text-center flex-1">Choose Chart</h3>
-{/*                     <img src={XIcon} alt="X-Icon" className="w-[1rem] h-[1rem] cursor-pointer mr-2" onClick={props.toggleOverlay}/> */}
+                    <img src={XIcon} alt="X-Icon" className="w-[1rem] h-[1rem] cursor-pointer mr-2" onClick={props.toggleOverlay}/>
                 </div>
                 <div className="grid grid-cols-2 gap-4">
                     <Link to="/barChart" className="no-underline" onClick={props.toggleOverlay}>
