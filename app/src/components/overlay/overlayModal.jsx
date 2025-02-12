@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import BarChartPic from "../pics/BarChart.png";
 import ColumnChartPic from "../pics/ColumnChart.png";
 import FlowChartPic from "../pics/FlowChart.png";
-// import XIcon from "../pics/XIcon.png";
+// import XIcon from "../pics/xIcon.png";
 
 function Overlay(props) {
     if (!props.showOverlay) {
