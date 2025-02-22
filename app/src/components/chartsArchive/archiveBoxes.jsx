@@ -57,7 +57,7 @@ function ArchiveBoxes() {
         </div>
       </Link>
       <Link
-        to="/chartsArchive/Announcements"
+        to="/"
         className="flex items-center bg-[#F5F5F5] border-2 border-solid border-black hover:bg-[white] rounded-xl p-1 max-lg:p-3 mb-2 cursor-pointer no-underline pl-[5%] mb-[2rem]"
       >
         <div className="flex flex-col">
@@ -70,7 +70,7 @@ function ArchiveBoxes() {
         </div>
       </Link>
       <Link
-        to="/chartsArchive/Suggestions"
+        to="/"
         className="flex items-center bg-[#F5F5F5] border-2 border-solid border-black hover:bg-[white] rounded-xl p-1 max-lg:p-3 mb-2 cursor-pointer no-underline pl-[5%] mb-[2rem]"
       >
         <div className="flex flex-col">
