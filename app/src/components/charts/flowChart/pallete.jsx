@@ -45,8 +45,8 @@ function initPalette() {
       initGraphObj(go.Node, "Vertical",
         { locationSpot: go.Spot.Center },
         initGraphObj(go.Shape, "rectangle", {
-           width: 60, 
-           height: 40, 
+           width: 40, 
+           height: 20, 
            fill: "#F2F2F2",
            strokeWidth: 1,
            margin: 2,
