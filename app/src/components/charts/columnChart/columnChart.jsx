@@ -137,7 +137,7 @@ function ColumnChart() {
       } else if (selectedLanguage == "html") {
         latestNodeDataArray = ParseHTMLCssToData(generatedCode);
       }
-      console.log(latestNodeDataArray)
+
       await axios.post(
         "/columnCharts/createColumnCharts", { code: latestNodeDataArray }
       );
