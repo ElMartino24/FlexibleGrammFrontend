@@ -12,6 +12,9 @@ function ArchiveBoxes() {
           <h3 className="font-arial text-black text-1xl sm:text-2xl text-left">
             Flow Charts
           </h3>
+          <p className="font-arial text-black text-xs sm:sm text-left">
+            Search for Flow Charts
+          </p>
         </div>
       </Link>
       <Link
@@ -22,6 +25,9 @@ function ArchiveBoxes() {
           <h3 className="font-arial text-black text-1xl sm:text-2xl text-left">
             Bar Charts
           </h3>
+          <p className="font-arial text-black text-xs sm:sm  text-left">
+            Search for Bar Charts
+          </p>
         </div>
       </Link>
       <Link
@@ -32,6 +38,9 @@ function ArchiveBoxes() {
           <h3 className="font-arial text-black text-1xl sm:text-2xl text-left">
             Column Charts
           </h3>
+          <p className="font-arial text-black text-xs sm:sm  text-left">
+            Search for Column Charts
+          </p>
         </div>
       </Link>
       <Link
@@ -42,26 +51,35 @@ function ArchiveBoxes() {
           <h3 className="font-arial text-black text-1xl sm:text-2xl text-left">
             Coming Soon...
           </h3>
+          <p className="font-arial text-black text-xs sm:sm  text-left">
+            Coming Soon...
+          </p>
         </div>
       </Link>
       <Link
-        to="/"
+        to="/chartsArchive/Announcements"
         className="flex items-center bg-[#F5F5F5] border-2 border-solid border-black hover:bg-[white] rounded-xl p-1 max-lg:p-3 mb-2 cursor-pointer no-underline pl-[5%] mb-[2rem]"
       >
         <div className="flex flex-col">
           <h3 className="font-arial text-black text-1xl sm:text-2xl text-left">
             Coming Soon...
           </h3>
+          <p className="font-arial text-black text-xs sm:sm text-left">
+            Coming Soon...
+          </p>
         </div>
       </Link>
       <Link
-        to="/"
+        to="/chartsArchive/Suggestions"
         className="flex items-center bg-[#F5F5F5] border-2 border-solid border-black hover:bg-[white] rounded-xl p-1 max-lg:p-3 mb-2 cursor-pointer no-underline pl-[5%] mb-[2rem]"
       >
         <div className="flex flex-col">
           <h3 className="font-arial text-black text-1xl sm:text-2xl text-left">
-            Coming Soon...
+            Coming Soon...  
           </h3>
+          <p className="font-arial text-black text-xs sm:sm  text-left">
+            Coming Soon...
+          </p>
         </div>
       </Link>
     </div>
