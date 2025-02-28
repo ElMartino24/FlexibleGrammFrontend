@@ -83,7 +83,7 @@ function Overlay(props) {
             </div>
           </Link>
           <Link
-            to="/howToAnimation"
+            to="https://youtu.be/YxyRbKOXlGw"
             className="no-underline"
             onClick={props.toggleOverlay}
           >
